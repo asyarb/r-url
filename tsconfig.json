@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+
+		"strict": true,
+		"strictNullChecks": true,
+		"noUncheckedIndexedAccess": true,
+
+		"verbatimModuleSyntax": true,
+		"skipLibCheck": true,
+		"allowJs": false
+	},
+	"include": ["src"]
+}

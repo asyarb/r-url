@@ -1,0 +1,35 @@
+{
+	"name": "r-url",
+	"version": "0.1.0",
+	"type": "module",
+	"description": "URL but for relative URLs.",
+	"license": "MIT",
+	"sideEffects": false,
+	"keywords": ["url", "relative"],
+	"author": {
+		"name": "Anthony Yarbrough",
+		"email": "asyarb@hawaii.edu"
+	},
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": "./dist/index.js",
+	"files": ["dist"],
+	"scripts": {
+		"build": "bunchee",
+		"dev": "vitest dev",
+		"lint": "npx @biomejs/biome check .",
+		"lint:fix": "automd && npx @biomejs/biome check --apply .",
+		"prepack": "pnpm build",
+		"release": "pnpm test && changelogen --release && npm publish && git push --follow-tags",
+		"test": "pnpm lint && pnpm test:types && vitest run --coverage",
+		"test:types": "tsc --noEmit --skipLibCheck"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.7.1",
+		"automd": "^0.3.7",
+		"bunchee": "^5.1.2",
+		"changelogen": "^0.5.5",
+		"typescript": "^5.4.5",
+		"vitest": "^1.5.2"
+	}
+}
