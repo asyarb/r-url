@@ -1,11 +1,14 @@
 {
 	"name": "r-url",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"type": "module",
 	"description": "Small wrapper around the native `URL` class that works with relative URLs.",
 	"license": "MIT",
 	"sideEffects": false,
-	"keywords": ["url", "relative"],
+	"keywords": [
+		"url",
+		"relative"
+	],
 	"author": {
 		"name": "Anthony Yarbrough",
 		"email": "asyarb@hawaii.edu"
@@ -13,7 +16,9 @@
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"exports": "./dist/index.js",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "bunchee",
 		"dev": "vitest dev",
