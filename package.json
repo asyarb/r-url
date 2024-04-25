@@ -1,6 +1,6 @@
 {
-	"name": "r-url",
-	"version": "0.1.1",
+	"name": "@asyarb/r-url",
+	"version": "0.1.2",
 	"type": "module",
 	"description": "Small wrapper around the native `URL` class that works with relative URLs.",
 	"license": "MIT",
