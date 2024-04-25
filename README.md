@@ -29,24 +29,18 @@ bun install r-url
 
 Import:
 
-<!-- automd:jsimport cjs cdn name="pkg" -->
+<!-- automd:jsimport cjs name="r-url" imports="RURL" -->
 
 **ESM** (Node.js, Bun)
 
 ```js
-import {} from "pkg";
+import { RURL } from "r-url";
 ```
 
 **CommonJS** (Legacy Node.js)
 
 ```js
-const {} = require("pkg");
-```
-
-**CDN** (Deno, Bun and Browsers)
-
-```js
-import {} from "https://esm.sh/pkg";
+const { RURL } = require("r-url");
 ```
 
 <!-- /automd -->
@@ -66,12 +60,4 @@ import {} from "https://esm.sh/pkg";
 
 ## License
 
-<!-- /automd -->
-
-<!-- automd:with-automd -->
-
----
-
-_🤖 auto updated with [automd](https://automd.unjs.io)_
-
-<!-- /automd -->
+MIT
