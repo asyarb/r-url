@@ -10,37 +10,37 @@ Install package:
 
 ```sh
 # ✨ Auto-detect
-npx nypm install r-url
+npx nypm install @asyarb/r-url
 
 # npm
-npm install r-url
+npm install @asyarb/r-url
 
 # yarn
-yarn add r-url
+yarn add @asyarb/r-url
 
 # pnpm
-pnpm install r-url
+pnpm install @asyarb/r-url
 
 # bun
-bun install r-url
+bun install @asyarb/r-url
 ```
 
 <!-- /automd -->
 
 Import:
 
-<!-- automd:jsimport cjs name="r-url" imports="RURL" -->
+<!-- automd:jsimport cjs name="@asyarb/r-url" imports="RURL" -->
 
 **ESM** (Node.js, Bun)
 
 ```js
-import { RURL } from "r-url";
+import { RURL } from "@asyarb/r-url";
 ```
 
 **CommonJS** (Legacy Node.js)
 
 ```js
-const { RURL } = require("r-url");
+const { RURL } = require("@asyarb/r-url");
 ```
 
 <!-- /automd -->
