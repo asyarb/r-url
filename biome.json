@@ -4,7 +4,7 @@
 		"enabled": true
 	},
 	"files": {
-		"ignore": [".vscode", ".next", "node_modules"]
+		"ignore": [".vscode", "node_modules", "coverage", "dist"]
 	},
 	"formatter": {
 		"indentStyle": "tab"

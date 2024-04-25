@@ -2,7 +2,7 @@
 	"name": "r-url",
 	"version": "0.1.0",
 	"type": "module",
-	"description": "URL but for relative URLs.",
+	"description": "Small wrapper around the native `URL` class that works with relative URLs.",
 	"license": "MIT",
 	"sideEffects": false,
 	"keywords": ["url", "relative"],
@@ -26,6 +26,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.7.1",
+		"@vitest/coverage-v8": "^1.5.2",
 		"automd": "^0.3.7",
 		"bunchee": "^5.1.2",
 		"changelogen": "^0.5.5",

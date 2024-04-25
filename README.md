@@ -1,6 +1,6 @@
 # r-URL
 
-This is my package description.
+Small wrapper around the native [`URL`](https://developer.mozilla.org/en-US/docs/Web/API/URL) class that works with relative URLs.
 
 ## Usage
 
@@ -45,6 +45,24 @@ const { RURL } = require("r-url");
 
 <!-- /automd -->
 
+## API 
+
+Small wrapper around the native `URL` class that works with relative URLs.
+
+### Basic Usage
+
+```ts
+const url = new RURL('/about-us')
+```
+
+### Setting search parameters
+
+```ts
+const url = new RURL('/search')
+url.searchParams.set('query', 'scholarships')
+url.toString() // => "/search?query=scholarships"
+```
+
 ## Development
 
 <details>
@@ -61,3 +79,11 @@ const { RURL } = require("r-url");
 ## License
 
 MIT
+
+<!-- automd:with-automd -->
+
+---
+
+_🤖 auto updated with [automd](https://automd.unjs.io)_
+
+<!-- /automd -->
