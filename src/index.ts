@@ -21,11 +21,25 @@ export class RURL extends URL {
 		super(url, RURL.#FAKE_URL)
 	}
 
-	host = ""
-	hostname = ""
-	protocol = ""
-	origin = ""
-	href = super.href.replace(RURL.#FAKE_URL, "")
+	get host() {
+		return ""
+	}
+
+	get hostname() {
+		return ""
+	}
+
+	get protocol() {
+		return ""
+	}
+
+	get origin() {
+		return ""
+	}
+
+	get href() {
+		return super.href.replace(RURL.#FAKE_URL, "")
+	}
 
 	toString(): string {
 		return super.toString().replace(RURL.#FAKE_URL, "")
